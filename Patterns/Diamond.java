@@ -3,10 +3,10 @@ public class Diamond {
 
         int n = 4;
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n - i; j++) {
+            for (int j = 1; j <= n - i; j++) { //4-1 = 3, 4-2=2, 4-3 =1 spaces
                 System.out.print(" " + " ");
             }
-            for (int j = 1; j <= 2 * i - 1; j++) {
+            for (int j = 1; j <= 2 * i - 1; j++) { //2*1-1 = 1 , 2*2-1=3, 2*3-1=5 , 2*4-1 = 7 stars
                 System.out.print("*" + " ");
             }
 
